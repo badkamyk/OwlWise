@@ -2,13 +2,14 @@ import HeadingParagraph from "../../atoms/HeadingParagraph";
 import MainHeading from "../../atoms/HeadingMain";
 import { useTrail, animated } from "@react-spring/web";
 import React from "react";
+import HeadingButton from "../../atoms/HeadingButton";
 
 const Trails = ({ children }: { children: React.ReactNode }) => {
     const items = React.Children.toArray(children);
     const trail = useTrail(items.length, {
         from: { opacity: 0, transform: "translate3d(0,40px,0)" },
         to: { opacity: 1, transform: "translate3d(0,0px,0)" },
-        config: { duration: 1200 }
+        config: { duration: 900 }
     });
     return (
         <div className="p-3 text-center">
@@ -26,6 +27,7 @@ export default function HeadingText() {
         <Trails>
             <MainHeading />
             <HeadingParagraph />
+            <HeadingButton text={"Check details"} />
         </Trails>
 
     )
