@@ -3,5 +3,5 @@ export type MainContentTextType = {
     paragraphText: string;
     headingClassName?: string;
     paragraphClassName?: string;
-    summaryText: string;
+    secondaryText: string;
 }

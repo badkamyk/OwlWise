@@ -1,7 +1,5 @@
 import HeadingText from "../../molecules/HeadingText";
 import { useSpring, animated } from '@react-spring/web'
-import HeadingButton from "../../atoms/HeadingButton";
-
 
 export default function Heading() {
     const [props, api] = useSpring(

@@ -1,19 +1,17 @@
 import Heading from './components/organisms/Heading'
-import MainCard from './components/molecules/MainCard'
-import { mainCardInfo } from './components/molecules/MainCard/mainCardInfo'
 import Navbar from './components/organisms/Navbar'
 import ProcessSection from './components/organisms/ProcessSection'
+import MainContent from "./components/organisms/MainContent";
 
 function App() {
-
-
-  return (
-    <div className="min-h-screen">
-      <Navbar />
-      <Heading />
-      <ProcessSection />
-    </div>
-  )
+    return (
+        <div className="min-h-screen">
+            <Navbar/>
+            <Heading/>
+            <ProcessSection/>
+            <MainContent/>
+        </div>
+    )
 }
 
 export default App

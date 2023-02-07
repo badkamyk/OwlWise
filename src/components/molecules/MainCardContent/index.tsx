@@ -8,6 +8,7 @@ import { MainCardType } from './MainCardType'
 export default function MainCardContent({ title, description, src }: MainCardType) {
     const { ref, inView } = useInView({
         threshold: 0.5,
+        triggerOnce: true,
     });
 
     const animation = useSpring({
