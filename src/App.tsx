@@ -12,7 +12,7 @@ function App() {
     <div className="min-h-screen">
       <Navbar />
       <Heading />
-      <div className='bg-gradient-to-t from-rose-100 to-teal-100 h-[500px] flex gap-8 px-6'>
+      <div className='bg-gradient-to-b from-gray-600 via-rose-100 to-teal-100 h-fit flex flex-col md:flex-row gap-8 px-3 md:px-0 py-9 justify-center'>
         {mainCardElement}
       </div>
     </div>
