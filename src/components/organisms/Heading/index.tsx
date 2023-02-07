@@ -1,5 +1,6 @@
 import HeadingText from "../../molecules/HeadingText";
 import { useSpring, animated } from '@react-spring/web'
+import HeadingButton from "../../atoms/HeadingButton";
 
 
 export default function Heading() {
@@ -12,8 +13,9 @@ export default function Heading() {
         []
     )
     return (
-        <animated.div style={props} className="bg-[url('/public/ales-nesetril-Im7lZjxeLhg-unsplash.webp')] bg-cover bg-center bg-no-repeat bg-fixed h-[50vh]">
+        <animated.div style={props} className="bg-[url('/public/ales-nesetril-Im7lZjxeLhg-unsplash.webp')] bg-cover bg-center bg-no-repeat h-[90vh] flex flex-col items-center">
             <HeadingText />
+            <HeadingButton text={"Check details"} />
         </animated.div>
     )
 }
