@@ -1,5 +1,6 @@
-import MainCardContent from '../../molecules/MainCardContent'
-import { MainCardType } from '../../molecules/MainCardContent/MainCardType'
+import MainHeading from '../../atoms/HeadingMain'
+import MainCardContent from '../MainCardContent'
+import { MainCardType } from '../MainCardContent/MainCardType'
 
 export default function MainCard({ title, description, src }: MainCardType) {
     return (

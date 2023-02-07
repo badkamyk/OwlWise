@@ -25,9 +25,9 @@ const Trails = ({ children }: { children: React.ReactNode }) => {
 export default function HeadingText() {
     return (
         <Trails>
-            <MainHeading />
+            <MainHeading firstPhrase={"Better Data"} secondPhrase={"Scalable AI."} />
             <HeadingParagraph />
-            <HeadingButton text={"Check details"} />
+            <HeadingButton text={"Check pricing"} />
         </Trails>
 
     )
