@@ -13,7 +13,7 @@ export default function Heading() {
         []
     )
     return (
-        <animated.div style={props} className="bg-[url('/public/ales-nesetril-Im7lZjxeLhg-unsplash.webp')] bg-cover bg-center bg-no-repeat h-[90vh] flex flex-col items-center">
+        <animated.div style={props} className="bg-[url('/public/ales-nesetril-Im7lZjxeLhg-unsplash.webp')] bg-cover bg-center bg-no-repeat h-[99vh] flex flex-col items-center">
             <HeadingText />
         </animated.div>
     )
