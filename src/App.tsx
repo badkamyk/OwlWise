@@ -1,11 +1,10 @@
-import './App.css'
-import Heading from './components/molecules/HeadingText'
+import Heading from './components/organisms/Heading'
 import Navbar from './components/organisms/Navbar'
 
 function App() {
 
   return (
-    <div className="App">
+    <div className="min-h-screen">
       <Navbar />
       <Heading />
     </div>

@@ -1,7 +1,7 @@
 import HeadingParagraph from "../../atoms/HeadingParagraph";
 import MainHeading from "../../atoms/HeadingMain";
 
-export default function Heading() {
+export default function HeadingText() {
     return (
         <div className="p-3 text-center">
             <MainHeading />
