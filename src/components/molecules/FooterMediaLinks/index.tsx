@@ -54,7 +54,12 @@ const FooterMediaData = [
 export default function FooterMediaLinks() {
 	const links = FooterMediaData.map(link => {
 		return (
-			<FooterMediaLink href={link.href} srText={link.srText} path={link.path} key={link.href + "footer"} />
+			<FooterMediaLink
+				href={link.href}
+				srText={link.srText}
+				path={link.path}
+				key={link.href + "footer"}
+			/>
 		);
 	});
 	return <div className="mt-8 flex justify-center space-x-6">{links}</div>;
