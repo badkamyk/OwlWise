@@ -1,18 +1,13 @@
 import HeadingButton from "../../atoms/HeadingButton";
-import ContentHeading from "../../atoms/MainContentHeading";
+import HeadingMain from "../../atoms/HeadingMain";
 import MainContentParagraph from "../../atoms/MainContentParagraph";
 
 export default function ErrorPage() {
 	return (
-		<section className="min-h-screen bg-gray-900">
+		<section className="flex min-h-screen items-center bg-gray-900">
 			<div className="mx-auto max-w-screen-xl py-8 px-4 lg:py-16 lg:px-6">
 				<div className="mx-auto max-w-screen-sm text-center">
-					<ContentHeading
-						className={
-							"mb-4 text-7xl font-extrabold tracking-tight text-white lg:text-9xl"
-						}
-						text={"404"}
-					/>
+					<HeadingMain secondPhrase={"404"} />
 					<MainContentParagraph
 						className={
 							"mb-4 text-3xl font-bold tracking-tight text-gray-900 dark:text-white md:text-4xl"

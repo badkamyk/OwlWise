@@ -2,7 +2,7 @@ import { ContentTypographyType } from "../MainContentHeading/ContentTypographyTy
 
 export default function MainContentParagraph({
 	text,
-	className,
+	className = "mb-4 text-gray-900 text-md md:text-2xl",
 }: ContentTypographyType) {
 	return <p className={className}>{text}</p>;
 }

@@ -41,8 +41,6 @@ export default function MainContent() {
 								headingText={textInfo.headingText}
 								paragraphText={textInfo.paragraphText}
 								secondaryText={textInfo.secondaryText}
-								headingClassName={textInfo.headingClassName}
-								paragraphClassName={textInfo.paragraphClassName}
 							/>
 						) : (
 							<MainContentImages
