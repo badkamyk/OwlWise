@@ -1,5 +1,5 @@
 export type MainCardType = {
-    title: string;
-    description: string;
-    src: string;
-}
+	title: string;
+	description: string;
+	src: string;
+};

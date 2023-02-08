@@ -1,4 +1,4 @@
 export type ContentTypographyType = {
-    text: string;
-    className?: string;
-}
+	text: string;
+	className?: string;
+};

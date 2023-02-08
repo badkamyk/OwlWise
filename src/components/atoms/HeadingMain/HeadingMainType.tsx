@@ -1,4 +1,4 @@
 export type HeadingMainType = {
-    firstPhrase?: string;
-    secondPhrase?: string;
-}
+	firstPhrase?: string;
+	secondPhrase?: string;
+};

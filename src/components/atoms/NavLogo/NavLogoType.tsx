@@ -1,6 +1,6 @@
 export type NavLogoType = {
-    href: string;
-    alt: string;
-    text: string;
-    src: string;
-}
+	href: string;
+	alt: string;
+	text: string;
+	src: string;
+};
