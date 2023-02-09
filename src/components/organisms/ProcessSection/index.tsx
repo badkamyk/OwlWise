@@ -6,10 +6,8 @@ export default function ProcessSection() {
 	const mainCardElement = mainCardInfo.map(item => {
 		return (
 			<MainCard
-				title={item.title}
-				description={item.description}
-				src={item.src}
 				key={item.title + item.description}
+				{...item}
 			/>
 		);
 	});
