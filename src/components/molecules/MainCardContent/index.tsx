@@ -1,9 +1,9 @@
 import { animated, useSpring } from "@react-spring/web";
 import { useInView } from "react-intersection-observer";
-import MainCardDescription from "../../atoms/MainCardDescription";
 import MainCardImg from "../../atoms/MainCardImg";
 import MainCardTitle from "../../atoms/MainCardTitle";
 import { MainCardType } from "./MainCardType";
+import MainContentParagraph from "../../atoms/MainContentParagraph";
 
 export default function MainCardContent({
 	title,
@@ -32,7 +32,7 @@ export default function MainCardContent({
 			<div className="space-y-4">
 				<MainCardImg src={src} alt="Image with particles" />
 				<MainCardTitle text={title} />
-				<MainCardDescription text={description} />
+				<MainContentParagraph text={description} color={"gray"}/>
 			</div>
 		</animated.div>
 	);

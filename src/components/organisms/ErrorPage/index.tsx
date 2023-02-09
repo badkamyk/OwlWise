@@ -9,15 +9,13 @@ export default function ErrorPage() {
 				<div className="mx-auto max-w-screen-sm text-center">
 					<HeadingMain secondPhrase={"404"} />
 					<MainContentParagraph
-						className={
-							"mb-4 text-3xl font-bold tracking-tight text-gray-900 dark:text-white md:text-4xl"
-						}
+						color={"white"}
+						size={"xl"}
 						text={"Something's missing."}
 					/>
 					<MainContentParagraph
-						className={
-							"mb-4 text-lg font-light text-gray-500 dark:text-gray-400"
-						}
+						color={"white"}
+						size={"lg"}
 						text={
 							"Sorry, we can't find that page. You'll find lots to explore on the home page."
 						}

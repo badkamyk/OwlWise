@@ -1,8 +1,24 @@
 import { ContentTypographyType } from "./ContentTypographyType";
+import classnames from "classnames";
 
 export default function ContentHeading({
-	text,
-	className = "mb-4 text-4xl md: text-5xl tracking-tight font-extrabold text-gray-900",
-}: ContentTypographyType) {
-	return <h3 className={className}>{text}</h3>;
+																				 text,
+																				 color="gray",
+																				 size="4xl",
+																				 className = "mb-4 tracking-tight font-extrabold",
+																			 }: ContentTypographyType) {
+	return <h3 className={classnames(className, {
+			"text-gray-900": color === "gray",
+			"text-blue-700": color === "blue",
+			"text-white": color === "white",
+			"text-sm": size === "sm",
+			"text-md": size === "md",
+			"text-lg": size === "lg",
+			"text-xl": size === "xl",
+			"text-2xl": size === "2xl",
+			"text-3xl": size === "3xl",
+			"text-4xl": size === "4xl",
+			"text-5xl": size === "5xl",
+		},
+	)}>{text}</h3>;
 }

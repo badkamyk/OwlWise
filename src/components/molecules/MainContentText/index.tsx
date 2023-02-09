@@ -10,8 +10,8 @@ export default function MainContentText({
 	return (
 		<div className="font-light text-gray-500 dark:text-gray-400 sm:text-lg">
 			<ContentHeading text={headingText} />
-			<MainContentParagraph text={paragraphText} />
-			<MainContentParagraph text={secondaryText} />
+			<MainContentParagraph text={paragraphText} size={"xl"}/>
+			<MainContentParagraph text={secondaryText} size={"xl"}/>
 		</div>
 	);
 }
