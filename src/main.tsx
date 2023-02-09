@@ -2,10 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
+import About from "./components/organisms/About";
 import ErrorPage from "./components/organisms/ErrorPage";
 import Layout from "./components/organisms/Layout";
 import "./index.css";
-import About from "./components/organisms/About";
 
 const router = createBrowserRouter([
 	{
@@ -19,7 +19,7 @@ const router = createBrowserRouter([
 			{
 				path: "/about",
 				element: <About />,
-			}
+			},
 		],
 	},
 ]);

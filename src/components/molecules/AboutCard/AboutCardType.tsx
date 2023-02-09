@@ -6,4 +6,4 @@ export type AboutCardType = {
 	ghName: string;
 	role: string;
 	imgSrc: string;
-}
+};
