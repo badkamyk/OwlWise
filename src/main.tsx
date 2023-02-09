@@ -5,6 +5,7 @@ import App from "./App";
 import ErrorPage from "./components/organisms/ErrorPage";
 import Layout from "./components/organisms/Layout";
 import "./index.css";
+import About from "./components/organisms/About";
 
 const router = createBrowserRouter([
 	{
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
 				path: "/",
 				element: <App />,
 			},
+			{
+				path: "/about",
+				element: <About />,
+			}
 		],
 	},
 ]);
