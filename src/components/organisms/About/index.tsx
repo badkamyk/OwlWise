@@ -49,7 +49,7 @@ const aboutMembersData = [
 ];
 export default function About() {
 	return (
-		<section className="h-max bg-white dark:bg-gray-900">
+		<section className="bg-white dark:bg-gray-900">
 			<AboutHeading />
 			<div className="mb-6 grid gap-8 px-3 md:grid-cols-2 lg:mb-16">
 				{aboutMembersData.map(member => {
