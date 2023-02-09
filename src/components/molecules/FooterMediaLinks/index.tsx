@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import FooterMediaLink from "../../atoms/FooterMediaLink";
+import FooterMediaLink from "../../atoms/SocialMediaLink";
 
 const FooterMediaData = [
 	{

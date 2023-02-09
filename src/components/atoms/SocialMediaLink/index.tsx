@@ -1,10 +1,10 @@
-import { FooterMediaLinkType } from "./FooterMediaLinkType";
+import { SocialMediaLinkType } from "./FooterMediaLinkType";
 
-export default function FooterMediaLink({
+export default function SocialMediaLink({
 	href,
 	srText,
 	path,
-}: FooterMediaLinkType) {
+}: SocialMediaLinkType) {
 	return (
 		<a href={href} className="text-gray-200 hover:text-gray-500">
 			<span className="sr-only">{srText}</span>
