@@ -7,6 +7,7 @@ import ErrorPage from "./components/organisms/ErrorPage";
 import Layout from "./components/organisms/Layout";
 import Pricing from "./components/organisms/Pricing";
 import "./index.css";
+import Contact from "./components/organisms/Contact";
 
 const router = createBrowserRouter([
 	{
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
 				path: "/pricing",
 				element: <Pricing />,
 			},
+			{
+				path: "/contact",
+				element: <Contact />,
+			},
 		],
 	},
 ]);
@@ -32,5 +37,5 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
 	<React.StrictMode>
 		<RouterProvider router={router} />
-	</React.StrictMode>
+	</React.StrictMode>,
 );
