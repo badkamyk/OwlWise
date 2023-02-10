@@ -6,6 +6,7 @@ import About from "./components/organisms/About";
 import ErrorPage from "./components/organisms/ErrorPage";
 import Layout from "./components/organisms/Layout";
 import "./index.css";
+import Pricing from "./components/organisms/Pricing";
 
 const router = createBrowserRouter([
 	{
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
 				path: "/about",
 				element: <About />,
 			},
+			{
+				path: "/pricing",
+				element: <Pricing/>
+			}
 		],
 	},
 ]);
