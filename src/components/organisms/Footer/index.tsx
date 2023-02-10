@@ -9,7 +9,7 @@ export default function Footer() {
 				<footer className="-mx-5 -my-2 flex flex-wrap justify-center gap-3">
 					<FooterLink href={"Home"} />
 					<FooterLink href={"About"} />
-					<FooterLink href={"Services"} />
+					<FooterLink href={"Pricing"} />
 					<FooterLink href={"Contact"} />
 				</footer>
 				<FooterMediaLinks />

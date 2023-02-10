@@ -1,7 +1,7 @@
 import NavLink from "../../atoms/NavLink";
 
 export default function AllNavLinks({ isExpanded }: { isExpanded: boolean }) {
-	const navLinks = ["Home", "About", "Services", "Contact"];
+	const navLinks = ["Home", "About", "Pricing", "Contact"];
 	const navLinksList = navLinks.map(link => {
 		return <NavLink key={link + " link"} href={link} />;
 	});
