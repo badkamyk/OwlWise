@@ -7,7 +7,6 @@ export default function Layout() {
 		<div className="flex min-h-screen flex-col">
 			<Navbar />
 			<div className={"flex-grow bg-gray-900"}>
-				{/* <Outlet /> */}
 				<Outlet />
 			</div>
 			<Footer />
