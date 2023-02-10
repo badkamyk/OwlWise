@@ -4,10 +4,11 @@ import Navbar from "../Navbar";
 
 export default function Layout() {
 	return (
-		<div className="min-h-screen flex flex-col">
+		<div className="flex min-h-screen flex-col">
 			<Navbar />
-			<div className={"flex-grow bg-gray-900"}>{/* <Outlet /> */}
-			<Outlet />
+			<div className={"flex-grow bg-gray-900"}>
+				{/* <Outlet /> */}
+				<Outlet />
 			</div>
 			<Footer />
 		</div>

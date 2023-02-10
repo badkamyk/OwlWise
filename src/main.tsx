@@ -5,8 +5,8 @@ import App from "./App";
 import About from "./components/organisms/About";
 import ErrorPage from "./components/organisms/ErrorPage";
 import Layout from "./components/organisms/Layout";
-import "./index.css";
 import Pricing from "./components/organisms/Pricing";
+import "./index.css";
 
 const router = createBrowserRouter([
 	{
@@ -23,8 +23,8 @@ const router = createBrowserRouter([
 			},
 			{
 				path: "/pricing",
-				element: <Pricing/>
-			}
+				element: <Pricing />,
+			},
 		],
 	},
 ]);
