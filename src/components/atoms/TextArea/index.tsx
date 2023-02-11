@@ -1,6 +1,6 @@
+import { useFormContext } from "react-hook-form";
 import InputLabel from "../InputLabel";
 import { TextAreaType } from "./TextAreaType";
-import { useFormContext } from "react-hook-form";
 
 export default function TextArea({
 	id,

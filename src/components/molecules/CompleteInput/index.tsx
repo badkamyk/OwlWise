@@ -1,7 +1,7 @@
+import { useFormContext } from "react-hook-form";
 import Input from "../../atoms/Input";
 import InputLabel from "../../atoms/InputLabel";
 import { CompleteInputType } from "./CompleteInputType";
-import { useFormContext } from "react-hook-form";
 
 const CompleteInput = ({
 	text,

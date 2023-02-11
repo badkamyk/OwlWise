@@ -4,7 +4,7 @@ export default function HeadingButton({
 	text,
 	href,
 	type,
-	disabled
+	disabled,
 }: HeadingButtonType) {
 	return (
 		<button

@@ -3,4 +3,4 @@ export type HeadingButtonType = {
 	href?: string;
 	type?: "button" | "submit" | "reset";
 	disabled?: boolean;
-}
+};
