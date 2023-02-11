@@ -53,9 +53,17 @@ export default function ContactForm() {
 					text={"Your email"}
 					required={true}
 				/>
-				<span className="mt-2 block text-red-600">
-					{methods.formState.errors.email?.message}
-				</span>
+				{methods.formState.errors.email && (
+					<>
+						<span className="mt-2 block text-red-600">
+							{methods.formState.errors.email.message}
+						</span>
+						<span role="alert" className="sr-only">
+							{methods.formState.errors.email.message}
+						</span>
+					</>
+				)}
+
 				<CompleteInput
 					type={"text"}
 					id={"subject"}
@@ -63,17 +71,31 @@ export default function ContactForm() {
 					text={"Subject"}
 					required={true}
 				/>
-				<span className="mt-2 block text-red-600">
-					{methods.formState.errors.subject?.message}
-				</span>
+				{methods.formState.errors.subject && (
+					<>
+						<span className="mt-2 block text-red-600">
+							{methods.formState.errors.subject.message}
+						</span>
+						<span role="alert" className="sr-only">
+							{methods.formState.errors.subject.message}
+						</span>
+					</>
+				)}
 				<TextArea
 					id={"message"}
 					placeholder={"Your message..."}
 					required={true}
 				/>
-				<span className="mt-2 block text-red-600">
-					{methods.formState.errors.message?.message}
-				</span>
+				{methods.formState.errors.message && (
+					<>
+						<span className="mt-2 block text-red-600">
+							{methods.formState.errors.message.message}
+						</span>
+						<span role="alert" className="sr-only">
+							{methods.formState.errors.message.message}
+						</span>
+					</>
+				)}
 				<HeadingButton
 					text={"Send message"}
 					type={"submit"}
