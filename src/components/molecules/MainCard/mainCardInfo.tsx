@@ -1,26 +1,26 @@
 export const mainCardInfo = [
 	{
-		title: "Total Cases",
+		title: "Analyze",
 		description:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam delectus temporibus est ut nisi nam at adipisci sunt dolore quibusdam.",
+			"We analyze your technical and business needs to create a custom solution that fits your needs.",
 		src: "https://nuxt.com/assets/home/ux-fast-light.svg",
 	},
 	{
-		title: "Total revenue",
+		title: "Prototype",
 		description:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam delectus temporibus est ut nisi nam at adipisci sunt dolore quibusdam.",
+			"We create a prototype of your solution to ensure that it meets your needs and expectations.",
 		src: "https://nuxt.com/assets/home/ux-fast-light.svg",
 	},
 	{
-		title: "Total Cases1",
+		title: "Develop",
 		description:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam delectus temporibus est ut nisi nam at adipisci sunt dolore quibusdam.",
+			"We develop your solution using the latest technologies and best practices to ensure a high-quality product.",
 		src: "https://nuxt.com/assets/home/ux-fast-light.svg",
 	},
 	{
-		title: "Total Cases2",
+		title: "Test",
 		description:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam delectus temporibus est ut nisi nam at adipisci sunt dolore quibusdam.",
+			"We test your solution to ensure that it meets your needs and expectations.",
 		src: "https://nuxt.com/assets/home/ux-fast-light.svg",
 	},
 ];
