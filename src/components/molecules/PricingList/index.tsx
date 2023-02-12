@@ -12,7 +12,7 @@ export default function PricingList({
 				<PricingPoint text={point} key={point + Math.random()} />
 			))}
 			<div className="pt-6 text-center">
-				<HeadingButton text={"Get started"} href={"#"} />
+				<HeadingButton text={"Get started"} href={"/contact"} />
 			</div>
 		</ul>
 	);
