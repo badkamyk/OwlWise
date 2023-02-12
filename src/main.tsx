@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import About from "./components/organisms/About";
-import Contact from "./components/organisms/Contact";
+import About from "./components/pages/About";
+import Contact from "./components/pages/Contact";
 import ErrorPage from "./components/organisms/ErrorPage";
-import Home from "./components/organisms/Home";
-import Layout from "./components/organisms/Layout";
-import Pricing from "./components/organisms/Pricing";
+import Home from "./components/pages/Home";
+import Layout from "./components/pages/Layout";
+import Pricing from "./components/pages/Pricing";
 import "./index.css";
 
 const router = createBrowserRouter([
