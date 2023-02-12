@@ -11,18 +11,18 @@ const aboutMembersData = [
 		ghName: "johndoe",
 		role: "CEO",
 		imgSrc:
-			"https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png",
+			"https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png",
 	},
 	{
-		name: "Chad Doe",
+		name: "Angela Doe",
 		description:
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-		fbName: "chaddoe",
-		twName: "chaddoe",
-		ghName: "chaddoe",
+		fbName: "angeladoe",
+		twName: "angeladoe",
+		ghName: "angeladoe",
 		role: "CTO",
 		imgSrc:
-			"https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png",
+			"https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/sofia-mcguire.png",
 	},
 	{
 		name: "Jane Doe",
@@ -44,7 +44,7 @@ const aboutMembersData = [
 		ghName: "carldoe",
 		role: "CFO",
 		imgSrc:
-			"https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png",
+			"https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/michael-gouch.png",
 	},
 ];
 export default function About() {
