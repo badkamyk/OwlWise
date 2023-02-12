@@ -27,7 +27,7 @@ export default function HeadingText() {
 		<Trails>
 			<MainHeading firstPhrase={"Better Data"} secondPhrase={"Scalable AI."} />
 			<HeadingParagraph />
-			<HeadingButton href={"#"} text={"Check pricing"} />
+			<HeadingButton href={"/pricing"} text={"Check pricing"} />
 		</Trails>
 	);
 }
