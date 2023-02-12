@@ -6,19 +6,22 @@ OwlWise is a project aimed at learning the principles of Atomic Design in React.
 
 ### Homepage
 
-![Homepage](https://i.imgur.com/0Z0Z2Zm.png)
+![Homepage](https://user-images.githubusercontent.com/25328873/218307459-572070db-780e-4a49-8d00-95051f38ba99.jpeg)
+
 
 
 ### About
 
-![About](https://i.imgur.com/0Z0Z2Zm.png)
+![About](https://user-images.githubusercontent.com/25328873/218307498-522ce131-fe80-4c2e-990f-3a99357cf863.jpeg)
+
 
 
 ### Pricing
 
-![Pricing](https://i.imgur.com/0Z0Z2Zm.png)
+![Pricing](https://user-images.githubusercontent.com/25328873/218307508-8fe110fc-ad84-4ab1-8b53-20739621d060.jpeg)
+
 
 
 ### Contact
 
-![Contact](https://i.imgur.com/0Z0Z2Zm.png)
+![Contact](https://user-images.githubusercontent.com/25328873/218307522-d8e8cf60-01e3-4da2-b948-554254ee4897.jpeg)
