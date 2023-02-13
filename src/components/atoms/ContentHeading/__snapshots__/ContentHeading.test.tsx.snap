@@ -6,7 +6,7 @@ exports[`ContentHeading > renders with all props 1`] = `
   "baseElement": <body>
     <div>
       <h3
-        class="mb-4 tracking-tight font-extrabold text-blue-700 text-xl"
+        class="mb-4 font-extrabold tracking-tight text-blue-700 text-xl"
       >
         Hello World
       </h3>
@@ -14,7 +14,7 @@ exports[`ContentHeading > renders with all props 1`] = `
   </body>,
   "container": <div>
     <h3
-      class="mb-4 tracking-tight font-extrabold text-blue-700 text-xl"
+      class="mb-4 font-extrabold tracking-tight text-blue-700 text-xl"
     >
       Hello World
     </h3>

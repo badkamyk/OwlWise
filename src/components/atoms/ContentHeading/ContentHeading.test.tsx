@@ -1,6 +1,6 @@
-import { expect, it, describe } from "vitest";
-import ContentHeading from "./index";
 import { render, screen } from "@testing-library/react";
+import { describe, expect, it } from "vitest";
+import ContentHeading from "./index";
 
 describe("ContentHeading", () => {
 	it("renders with only text prop", () => {
@@ -11,11 +11,15 @@ describe("ContentHeading", () => {
 	});
 
 	it("renders with all props", () => {
-		const result = render(<ContentHeading text="Hello World" color="blue" size="xl"
-																					className="mb-4 tracking-tight font-extrabold" />);
+		const result = render(
+			<ContentHeading
+				text="Hello World"
+				color="blue"
+				size="xl"
+				className="mb-4 font-extrabold tracking-tight"
+			/>
+		);
 		expect(result).toBeTruthy();
 		expect(result).toMatchSnapshot();
 	});
 });
-
-

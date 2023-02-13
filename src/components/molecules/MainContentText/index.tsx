@@ -3,10 +3,10 @@ import MainContentParagraph from "../../atoms/MainContentParagraph";
 import { MainContentTextType } from "./MainContentTextType";
 
 export default function MainContentText({
-																					headingText,
-																					paragraphText,
-																					secondaryText,
-																				}: MainContentTextType) {
+	headingText,
+	paragraphText,
+	secondaryText,
+}: MainContentTextType) {
 	return (
 		<div className="font-light text-gray-500 dark:text-gray-400 sm:text-lg">
 			<ContentHeading text={headingText} />
