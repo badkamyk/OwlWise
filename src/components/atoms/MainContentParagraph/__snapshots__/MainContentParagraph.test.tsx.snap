@@ -1,0 +1,21 @@
+// Vitest Snapshot v1
+
+exports[`MainContentParagraph > MainContentParagraph with only text prop 1`] = `
+<div>
+  <p
+    class="mb-4 text-gray-900 text-md"
+  >
+    Hello World
+  </p>
+</div>
+`;
+
+exports[`MainContentParagraph > MainContentParagraph with props 1`] = `
+<div>
+  <p
+    class="mb-8 text-blue-700 text-lg"
+  >
+    Hello World
+  </p>
+</div>
+`;
