@@ -1,0 +1,11 @@
+// Vitest Snapshot v1
+
+exports[`MainCardImg with props 1`] = `
+<div>
+  <img
+    alt="placeholder"
+    class="h-32 w-32"
+    src="https://via.placeholder.com/150"
+  />
+</div>
+`;
