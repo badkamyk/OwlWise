@@ -10,6 +10,7 @@
 		"lint": "eslint --ext .js,.jsx,.ts,.tsx, src",
 		"format": "prettier --write .",
 		"test": "vitest",
+		"test-once": "vitest run",
 		"prepare": "husky install"
 	},
 	"dependencies": {
