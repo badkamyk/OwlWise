@@ -7,6 +7,7 @@ describe("FooterLink", () => {
 	it("renders a link with href and classes", () => {
 		expect(result).toBeTruthy();
 		expect(screen.getByText("Home")).toBeTruthy();
+		expect(screen.getByRole("link")).toHaveProperty("href", "/");
 		expect(result).toMatchSnapshot();
 	});
 });

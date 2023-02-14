@@ -1,4 +1,4 @@
-import { SocialMediaLinkType } from "./FooterMediaLinkType";
+import { SocialMediaLinkType } from "./SocialMediaLinkType";
 
 export default function SocialMediaLink({
 	href,
