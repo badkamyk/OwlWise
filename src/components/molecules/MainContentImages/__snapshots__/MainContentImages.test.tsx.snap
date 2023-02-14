@@ -1,0 +1,20 @@
+// Vitest Snapshot v1
+
+exports[`MainContentImages 1`] = `
+<div>
+  <div
+    class="mt-8 grid grid-cols-2 gap-4"
+  >
+    <img
+      alt="firstAlt"
+      class="firstClass"
+      src="https://via.placeholder.com/150"
+    />
+    <img
+      alt="secondAlt"
+      class="secondClass"
+      src="https://via.placeholder.com/150"
+    />
+  </div>
+</div>
+`;
