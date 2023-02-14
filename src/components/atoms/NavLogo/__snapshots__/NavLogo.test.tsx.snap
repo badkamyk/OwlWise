@@ -1,0 +1,21 @@
+// Vitest Snapshot v1
+
+exports[`NavLogo with props 1`] = `
+<div>
+  <a
+    class="flex items-center"
+    href="/"
+  >
+    <img
+      alt="Logo"
+      class="mr-3 h-6 sm:h-9"
+      src="/favicon.ico"
+    />
+    <span
+      class="self-center whitespace-nowrap text-xl font-semibold dark:text-white"
+    >
+      Logo
+    </span>
+  </a>
+</div>
+`;
