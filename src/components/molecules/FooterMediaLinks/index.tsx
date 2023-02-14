@@ -1,7 +1,7 @@
 import { Fragment } from "react";
-import FooterMediaLink from "../../atoms/SocialMediaLink";
+import SocialMediaLink from "../../atoms/SocialMediaLink";
 
-const FooterMediaData = [
+export const FooterMediaData = [
 	{
 		href: "facebook.com",
 		srText: "Facebook",
@@ -54,7 +54,7 @@ const FooterMediaData = [
 export default function FooterMediaLinks() {
 	const links = FooterMediaData.map(link => {
 		return (
-			<FooterMediaLink
+			<SocialMediaLink
 				href={link.href}
 				srText={link.srText}
 				path={link.path}

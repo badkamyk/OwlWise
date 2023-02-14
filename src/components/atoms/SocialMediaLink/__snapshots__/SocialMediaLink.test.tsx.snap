@@ -5,6 +5,7 @@ exports[`SocialMediaLink with props 1`] = `
   <a
     class="text-gray-200 hover:text-gray-500"
     href="facebook.com"
+    target="_blank"
   >
     <span
       class="sr-only"

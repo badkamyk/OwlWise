@@ -28,6 +28,11 @@
 		"react-hooks/exhaustive-deps": "warn",
 		"react-hooks/rules-of-hooks": "error",
 		"react/react-in-jsx-scope": "off",
-		"prettier/prettier": "error"
+		"prettier/prettier": [
+			"error",
+			{
+				"endOfLine": "auto"
+			}
+		]
 	}
 }

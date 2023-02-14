@@ -6,7 +6,11 @@ export default function SocialMediaLink({
 	path,
 }: SocialMediaLinkType) {
 	return (
-		<a href={href} className="text-gray-200 hover:text-gray-500">
+		<a
+			href={href}
+			target="_blank"
+			className="text-gray-200 hover:text-gray-500"
+		>
 			<span className="sr-only">{srText}</span>
 			<svg
 				className="h-6 w-6"
