@@ -1,0 +1,15 @@
+// Vitest Snapshot v1
+
+exports[`NavLink with props 1`] = `
+<div>
+  <li>
+    <a
+      aria-current="page"
+      class="block rounded bg-blue-700 py-2 pl-3 pr-4 text-white dark:text-white md:bg-transparent md:p-0 md:text-blue-400"
+      href="/"
+    >
+      Home
+    </a>
+  </li>
+</div>
+`;
