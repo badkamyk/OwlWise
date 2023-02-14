@@ -18,6 +18,7 @@ specifiers:
   eslint-plugin-react-hooks: ^4.6.0
   happy-dom: ^8.2.6
   husky: ^8.0.0
+  intersection-observer: ^0.12.2
   postcss: ^8.4.21
   prettier: ^2.8.4
   prettier-plugin-organize-imports: ^3.2.2
@@ -59,6 +60,7 @@ devDependencies:
   eslint-plugin-react-hooks: 4.6.0_eslint@8.33.0
   happy-dom: 8.2.6
   husky: 8.0.3
+  intersection-observer: 0.12.2
   postcss: 8.4.21
   prettier: 2.8.4
   prettier-plugin-organize-imports: 3.2.2_silln3pw57har7jydmecgzoypa
@@ -2694,6 +2696,13 @@ packages:
       get-intrinsic: 1.2.0
       has: 1.0.3
       side-channel: 1.0.4
+    dev: true
+
+  /intersection-observer/0.12.2:
+    resolution:
+      {
+        integrity: sha512-7m1vEcPCxXYI8HqnL8CKI6siDyD+eIWSwgB3DZA+ZTogxk9I4CDnj4wilt9x/+/QbHI4YG5YZNmC6458/e9Ktg==,
+      }
     dev: true
 
   /is-arguments/1.1.1:
