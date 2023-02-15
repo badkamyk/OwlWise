@@ -3,7 +3,7 @@ import { FormProvider, useForm } from "react-hook-form";
 import { expect, it } from "vitest";
 import ContactForm from "./index";
 
-it("ContactForm", () => {
+it("renders ContactForm correctly", () => {
 	const { result } = renderHook(() => useForm());
 	const { container } = render(
 		<FormProvider {...result.current}>

@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import { expect, it } from "vitest";
 import PricingCardHeading from "./index";
 
-it("PricingCardHeading", () => {
+it("renders PricingCardHeading with props correctly", () => {
 	const { container } = render(
 		<PricingCardHeading
 			heading={"heading"}

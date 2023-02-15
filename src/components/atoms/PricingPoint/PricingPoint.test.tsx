@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import { expect, it } from "vitest";
 import PricingPoint from "./index";
 
-it("PricingPoint with props", () => {
+it("renders PricingPoint with props correctly", () => {
 	const { container } = render(<PricingPoint text="PricingPoint" />);
 	expect(
 		container.getElementsByClassName("flex items-center space-x-3")

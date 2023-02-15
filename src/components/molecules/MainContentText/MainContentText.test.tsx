@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import { expect, it } from "vitest";
 import MainContentText from "./index";
 
-it("MainContentText", () => {
+it("renders MainContentText with props correctly", () => {
 	const { container } = render(
 		<MainContentText
 			headingText={"headingText"}

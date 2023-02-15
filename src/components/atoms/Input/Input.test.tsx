@@ -3,7 +3,7 @@ import { FormProvider, useForm } from "react-hook-form";
 import { expect, it } from "vitest";
 import Input from "./index";
 
-it("Input with props", () => {
+it("renders Input with props correctly", () => {
 	const { result } = renderHook(() => useForm());
 	render(
 		<FormProvider {...result.current}>

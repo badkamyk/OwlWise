@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import { expect, it } from "vitest";
 import FooterMediaLinks, { FooterMediaData } from "./index";
 
-it("FooterMediaLinks", () => {
+it("renders FooterMediaLinks correctly", () => {
 	const { container } = render(<FooterMediaLinks />);
 	const linkElement = screen.getAllByRole("link");
 	expect(

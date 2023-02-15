@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import { expect, it } from "vitest";
 import SocialMediaLink from "./index";
 
-it("SocialMediaLink with props", () => {
+it("renders SocialMediaLink with props correctly", () => {
 	const { container } = render(
 		<SocialMediaLink
 			href="facebook.com"

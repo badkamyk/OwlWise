@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import { expect, it } from "vitest";
 import PricingList from "./index";
 
-it("PricingList", () => {
+it("renders PricingList correctly", () => {
 	const { container } = render(
 		<PricingList pricingPoints={["point1", "point2"]} />
 	);

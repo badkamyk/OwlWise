@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import { expect, it } from "vitest";
 import AboutCard from "./index";
 
-it("AboutCard with props", () => {
+it("renders AboutCard with props correctly", () => {
 	const { container } = render(
 		<AboutCard
 			name={"John Doe"}

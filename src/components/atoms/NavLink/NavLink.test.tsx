@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import { expect, it } from "vitest";
 import NavLink from "./index";
 
-it("NavLink with props", () => {
+it("renders NavLink with props correctly", () => {
 	const { container } = render(<NavLink href="Home" />);
 	expect(
 		container.getElementsByClassName(

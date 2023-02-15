@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import { expect, it } from "vitest";
 import MainCardTitle from "./index";
 
-it("MainCardTitle with props", () => {
+it("renders MainCardTitle with props correctly", () => {
 	const { container } = render(<MainCardTitle text="Hello World" />);
 	expect(screen.getByText("Hello World")).toBeTruthy();
 	expect(

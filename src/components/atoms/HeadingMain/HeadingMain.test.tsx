@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import { expect, it } from "vitest";
 import HeadingMain from "./index";
 
-it("HeadingMain with props", () => {
+it("renders HeadingMain with props correctly", () => {
 	const result = render(
 		<HeadingMain firstPhrase="Hello" secondPhrase="World" />
 	);

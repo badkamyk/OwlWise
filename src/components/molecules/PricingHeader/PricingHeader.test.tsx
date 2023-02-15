@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import { expect, it } from "vitest";
 import PricingHeader from "./index";
 
-it("PricingHeader", () => {
+it("renders PricingHeader correctly", () => {
 	const { container } = render(<PricingHeader />);
 	expect(
 		container.getElementsByClassName(

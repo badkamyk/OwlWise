@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import { expect, it } from "vitest";
 import FooterLinkContainer from "./index";
 
-it("FooterLinkContainer", () => {
+it("renders FooterLinkContainer with props correctly", () => {
 	const { container } = render(<FooterLinkContainer href={"Home"} />);
 	expect(container.getElementsByClassName("px-5 py-2")).toBeTruthy();
 	expect(screen.getByRole("link")).toBeTruthy();

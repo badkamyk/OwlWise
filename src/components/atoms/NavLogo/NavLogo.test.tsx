@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import { expect, it } from "vitest";
 import NavLogo from "./index";
 
-it("NavLogo with props", () => {
+it("renders rNavLogo with props correctly", () => {
 	const { container } = render(
 		<NavLogo href="/" src="/favicon.ico" alt="Logo" text="Logo" />
 	);

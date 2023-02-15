@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import { expect, it } from "vitest";
 import MainContentImages from "./index";
 
-it("MainContentImages", () => {
+it("renders MainContentImages with props correctly", () => {
 	const { container } = render(
 		<MainContentImages
 			firstSrc={"https://via.placeholder.com/150"}

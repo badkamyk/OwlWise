@@ -3,7 +3,7 @@ import "intersection-observer";
 import { expect, it } from "vitest";
 import MainCard from "./index";
 
-it("MainCard", () => {
+it("renders MainCard with props correctly", () => {
 	const { container } = render(
 		<MainCard
 			title={"title"}

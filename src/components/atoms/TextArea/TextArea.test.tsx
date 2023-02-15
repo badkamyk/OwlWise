@@ -3,7 +3,7 @@ import { FormProvider, useForm } from "react-hook-form";
 import { expect, it } from "vitest";
 import TextArea from "./index";
 
-it("renders TextArea", () => {
+it("renders TextArea with props correctly", () => {
 	const { result } = renderHook(() => useForm());
 	const { container } = render(
 		<FormProvider {...result.current}>

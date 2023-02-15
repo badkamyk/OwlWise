@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import { expect, it } from "vitest";
 import ContactHeading from "./index";
 
-it("ContactHeading", () => {
+it("renders ContactHeading correctly", () => {
 	const { container } = render(<ContactHeading />);
 	expect(screen.getByText("Contact")).toBeTruthy();
 	expect(screen.getByText("us")).toBeTruthy();

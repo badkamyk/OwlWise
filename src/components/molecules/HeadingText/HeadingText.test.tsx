@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import { expect, it } from "vitest";
 import HeadingText from "./index";
 
-it("HeadingText", () => {
+it("renders HeadingText correctly", () => {
 	const { container } = render(<HeadingText />);
 	expect(container.getElementsByClassName("p-3 text-center")).toBeTruthy();
 	expect(screen.getByText("Better Data")).toBeTruthy();

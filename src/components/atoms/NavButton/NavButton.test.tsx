@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import { expect, it } from "vitest";
 import NavButton from "./index";
 
-it("NavButton with props", () => {
+it("renders NavButton with props correctly", () => {
 	const { container } = render(
 		<NavButton isExpanded={true} setIsExpanded={() => {}} />
 	);
