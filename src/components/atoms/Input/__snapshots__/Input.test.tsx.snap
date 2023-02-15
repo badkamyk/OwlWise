@@ -121,3 +121,125 @@ exports[`Input with props 1`] = `
   },
 }
 `;
+
+exports[`renders Input with props correctly 1`] = `
+{
+  "current": {
+    "clearErrors": [Function],
+    "control": {
+      "_defaultValues": {},
+      "_executeSchema": [Function],
+      "_fields": {
+        "name": {
+          "_f": {
+            "mount": true,
+            "name": "name",
+            "ref": <input
+              aria-invalid="false"
+              class="focus:ring-primary-500 focus:border-primary-500 dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 shadow-sm dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400"
+              id="name"
+              name="name"
+              placeholder="Name"
+              required=""
+              type="text"
+            />,
+          },
+        },
+      },
+      "_focusError": [Function],
+      "_formState": {
+        "dirtyFields": {},
+        "errors": {},
+        "isDirty": false,
+        "isLoading": true,
+        "isSubmitSuccessful": false,
+        "isSubmitted": false,
+        "isSubmitting": false,
+        "isValid": false,
+        "isValidating": false,
+        "submitCount": 0,
+        "touchedFields": {},
+      },
+      "_formValues": {
+        "name": "",
+      },
+      "_getDirty": [Function],
+      "_getFieldArray": [Function],
+      "_getWatch": [Function],
+      "_names": {
+        "array": Set {},
+        "mount": Set {
+          "name",
+        },
+        "unMount": Set {},
+        "watch": Set {},
+      },
+      "_options": {
+        "mode": "onSubmit",
+        "reValidateMode": "onChange",
+        "shouldFocusError": true,
+      },
+      "_proxyFormState": {
+        "dirtyFields": false,
+        "errors": "all",
+        "isDirty": false,
+        "isValid": false,
+        "isValidating": false,
+        "touchedFields": false,
+      },
+      "_removeUnmounted": [Function],
+      "_reset": [Function],
+      "_stateFlags": {
+        "action": false,
+        "mount": true,
+        "watch": false,
+      },
+      "_subjects": {
+        "array": {
+          "next": [Function],
+          "observers": [],
+          "subscribe": [Function],
+          "unsubscribe": [Function],
+        },
+        "state": {
+          "next": [Function],
+          "observers": [
+            {
+              "next": [Function],
+            },
+          ],
+          "subscribe": [Function],
+          "unsubscribe": [Function],
+        },
+        "watch": {
+          "next": [Function],
+          "observers": [],
+          "subscribe": [Function],
+          "unsubscribe": [Function],
+        },
+      },
+      "_updateFieldArray": [Function],
+      "_updateFormState": [Function],
+      "_updateValid": [Function],
+      "getFieldState": [Function],
+      "register": [Function],
+      "unregister": [Function],
+    },
+    "formState": {
+      "defaultValues": undefined,
+    },
+    "getFieldState": [Function],
+    "getValues": [Function],
+    "handleSubmit": [Function],
+    "register": [Function],
+    "reset": [Function],
+    "resetField": [Function],
+    "setError": [Function],
+    "setFocus": [Function],
+    "setValue": [Function],
+    "trigger": [Function],
+    "unregister": [Function],
+    "watch": [Function],
+  },
+}
+`;

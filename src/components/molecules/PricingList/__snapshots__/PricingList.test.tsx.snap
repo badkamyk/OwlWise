@@ -65,3 +65,69 @@ exports[`PricingList 1`] = `
   </ul>
 </div>
 `;
+
+exports[`renders PricingList correctly 1`] = `
+<div>
+  <ul
+    class="mb-8 space-y-4 text-left"
+    role="list"
+  >
+    <li
+      class="flex items-center space-x-3"
+    >
+      <svg
+        class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400"
+        fill="currentColor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      <span
+        class="text-white"
+      >
+        point1
+      </span>
+    </li>
+    <li
+      class="flex items-center space-x-3"
+    >
+      <svg
+        class="h-5 w-5 flex-shrink-0 text-green-500 dark:text-green-400"
+        fill="currentColor"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+          fill-rule="evenodd"
+        />
+      </svg>
+      <span
+        class="text-white"
+      >
+        point2
+      </span>
+    </li>
+    <div
+      class="pt-6 text-center"
+    >
+      <button
+        class="group relative mb-2 mr-2 inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-green-400 to-blue-600 p-0.5 text-sm font-medium text-gray-900 hover:text-white focus:outline-none focus:ring-4 focus:ring-green-200 group-hover:from-green-400 group-hover:to-blue-600 dark:text-white dark:focus:ring-green-800"
+      >
+        <a
+          class="relative rounded-md bg-white px-5 py-2.5 transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-gray-900"
+          href="/contact"
+        >
+          Get started
+        </a>
+      </button>
+    </div>
+  </ul>
+</div>
+`;

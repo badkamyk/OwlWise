@@ -38,3 +38,42 @@ exports[`MainCard 1`] = `
   </div>
 </div>
 `;
+
+exports[`renders MainCard with props correctly 1`] = `
+<div>
+  <div
+    class="flex items-center"
+  >
+    <div
+      class="group relative mx-auto w-96 overflow-hidden rounded-[16px] bg-gray-300 p-[1px] transition-all duration-300 ease-in-out hover:bg-gradient-to-r hover:from-indigo-500 hover:via-purple-500 hover:to-pink-500"
+    >
+      <div
+        class="invisible absolute -top-40 -bottom-40 left-10 right-10 bg-gradient-to-r from-transparent via-white/90 to-transparent group-hover:visible group-hover:animate-spin-slow"
+      />
+      <div
+        class="relative rounded-[15px] bg-white p-6"
+        style="opacity: 0; transform: translateY(50px);"
+      >
+        <div
+          class="space-y-4"
+        >
+          <img
+            alt="Image with particles"
+            src="https://via.placeholder.com/150"
+          />
+          <p
+            class="text-lg font-semibold text-slate-800"
+          >
+            title
+          </p>
+          <p
+            class="mb-4 text-gray-900 text-md"
+          >
+            description
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

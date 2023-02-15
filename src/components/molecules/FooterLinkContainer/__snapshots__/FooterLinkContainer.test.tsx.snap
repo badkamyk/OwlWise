@@ -14,3 +14,18 @@ exports[`FooterLinkContainer 1`] = `
   </div>
 </div>
 `;
+
+exports[`renders FooterLinkContainer with props correctly 1`] = `
+<div>
+  <div
+    class="px-5 py-2"
+  >
+    <a
+      class="text-base leading-6 text-gray-100 hover:text-gray-400"
+      href="/"
+    >
+      Home
+    </a>
+  </div>
+</div>
+`;

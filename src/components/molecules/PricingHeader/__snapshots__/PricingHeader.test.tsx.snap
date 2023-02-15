@@ -18,3 +18,22 @@ exports[`PricingHeader 1`] = `
   </div>
 </div>
 `;
+
+exports[`renders PricingHeader correctly 1`] = `
+<div>
+  <div
+    class="mx-auto mb-8 max-w-screen-md text-center lg:mb-12"
+  >
+    <h3
+      class="mb-4 tracking-tight font-extrabold text-white text-4xl"
+    >
+      Designed for business teams like yours
+    </h3>
+    <p
+      class="mb-4 text-white text-lg"
+    >
+      Here at OwlWise we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth
+    </p>
+  </div>
+</div>
+`;
