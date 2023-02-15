@@ -1,0 +1,30 @@
+// Vitest Snapshot v1
+
+exports[`PricingCardHeading 1`] = `
+<div>
+  <h3
+    class="mb-4 tracking-tight font-extrabold text-white text-xl"
+  >
+    heading
+  </h3>
+  <p
+    class="mb-4 text-white text-md"
+  >
+    paragraph
+  </p>
+  <div
+    class="my-8 flex items-baseline justify-center"
+  >
+    <span
+      class="mr-2 text-5xl font-extrabold text-white"
+    >
+      333
+    </span>
+    <span
+      class="text-gray-500 dark:text-white"
+    >
+      /month
+    </span>
+  </div>
+</div>
+`;
