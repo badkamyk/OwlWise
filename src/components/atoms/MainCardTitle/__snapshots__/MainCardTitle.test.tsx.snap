@@ -1,15 +1,5 @@
 // Vitest Snapshot v1
 
-exports[`MainCardTitle with props 1`] = `
-<div>
-  <p
-    class="text-lg font-semibold text-slate-800"
-  >
-    Hello World
-  </p>
-</div>
-`;
-
 exports[`renders MainCardTitle with props correctly 1`] = `
 <div>
   <p

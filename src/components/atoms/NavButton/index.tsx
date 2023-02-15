@@ -6,6 +6,7 @@ export default function NavButton({
 }: NavButtonType) {
 	return (
 		<button
+			data-testid="nav-button"
 			onClick={() => setIsExpanded(!isExpanded)}
 			data-collapse-toggle="navbar-default"
 			type="button"

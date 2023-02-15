@@ -1,32 +1,5 @@
 // Vitest Snapshot v1
 
-exports[`SocialMediaLink with props 1`] = `
-<div>
-  <a
-    class="text-gray-200 hover:text-gray-500"
-    href="facebook.com"
-    target="_blank"
-  >
-    <span
-      class="sr-only"
-    >
-      Facebook link
-    </span>
-    <svg
-      aria-hidden="true"
-      class="h-6 w-6"
-      fill="currentColor"
-      viewBox="0 0 24 24"
-    >
-      <path
-        d="M0 0h24v24H0z"
-        fill="none"
-      />
-    </svg>
-  </a>
-</div>
-`;
-
 exports[`renders SocialMediaLink with props correctly 1`] = `
 <div>
   <a

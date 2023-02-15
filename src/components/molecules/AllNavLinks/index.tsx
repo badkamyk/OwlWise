@@ -9,6 +9,7 @@ export default function AllNavLinks({ isExpanded }: { isExpanded: boolean }) {
 
 	return (
 		<div
+			data-testid="all-nav-links"
 			className={`${navLinksClass} w-full md:block md:w-auto`}
 			id="navbar-default"
 		>

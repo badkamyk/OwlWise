@@ -9,6 +9,7 @@ export default function MainContentParagraph({
 }: ContentTypographyType) {
 	return (
 		<p
+			data-testid="main-content-paragraph"
 			className={classnames(className, {
 				"text-gray-900": color === "gray",
 				"text-blue-700": color === "blue",

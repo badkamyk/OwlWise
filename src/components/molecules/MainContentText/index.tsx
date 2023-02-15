@@ -8,7 +8,10 @@ export default function MainContentText({
 	secondaryText,
 }: MainContentTextType) {
 	return (
-		<div className="font-light text-gray-500 dark:text-gray-400 sm:text-lg">
+		<div
+			className="font-light text-gray-500 dark:text-gray-400 sm:text-lg"
+			data-testid="main-content-text"
+		>
 			<ContentHeading text={headingText} />
 			<div className="font-normal">
 				<MainContentParagraph text={paragraphText} size={"xl"} />

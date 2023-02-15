@@ -4,7 +4,7 @@ import FooterMediaLinks from "../../molecules/FooterMediaLinks";
 
 export default function Footer() {
 	return (
-		<section className="bg-gray-900">
+		<section className="bg-gray-900" data-testid="footer-section">
 			<div className="mx-auto max-w-screen-xl space-y-8 overflow-hidden px-4 py-12 text-center sm:px-6 lg:px-8">
 				<footer className="-mx-5 -my-2 flex flex-wrap justify-center gap-3">
 					<FooterLink href={"Home"} />

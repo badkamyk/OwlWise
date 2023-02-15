@@ -29,7 +29,10 @@ export default function MainContent() {
 	});
 
 	return (
-		<section className="divide-y-8 bg-gradient-to-b from-teal-100 via-rose-100 to-gray-500 py-12 text-center">
+		<section
+			className="divide-y-8 bg-gradient-to-b from-teal-100 via-rose-100 to-gray-500 py-12 text-center"
+			data-testid="main-content"
+		>
 			<div
 				className="mx-auto max-w-screen-xl items-center gap-16 py-8 px-4 lg:grid lg:grid-cols-2 lg:py-16 lg:px-6"
 				ref={ref}

@@ -62,5 +62,12 @@ export default function FooterMediaLinks() {
 			/>
 		);
 	});
-	return <div className="mt-8 flex justify-center space-x-6">{links}</div>;
+	return (
+		<div
+			className="mt-8 flex justify-center space-x-6"
+			data-testid="footer-media-links"
+		>
+			{links}
+		</div>
+	);
 }

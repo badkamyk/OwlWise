@@ -1,30 +1,10 @@
 // Vitest Snapshot v1
 
-exports[`ContactHeading 1`] = `
-<div>
-  <h2
-    class="mb-3 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"
-  >
-    <span
-      class="bg-gradient-to-r from-sky-400 to-emerald-600 bg-clip-text text-transparent"
-    >
-      Contact
-    </span>
-     
-    us
-  </h2>
-  <p
-    class="mb-4 text-gray-900 text-md"
-  >
-    Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.
-  </p>
-</div>
-`;
-
 exports[`renders ContactHeading correctly 1`] = `
 <div>
   <h2
     class="mb-3 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"
+    data-testid="heading-main"
   >
     <span
       class="bg-gradient-to-r from-sky-400 to-emerald-600 bg-clip-text text-transparent"
@@ -36,6 +16,7 @@ exports[`renders ContactHeading correctly 1`] = `
   </h2>
   <p
     class="mb-4 text-gray-900 text-md"
+    data-testid="main-content-paragraph"
   >
     Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.
   </p>

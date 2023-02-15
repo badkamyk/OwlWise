@@ -1,33 +1,5 @@
 // Vitest Snapshot v1
 
-exports[`MainCardContent 1`] = `
-<div>
-  <div
-    class="relative rounded-[15px] bg-white p-6"
-    style="opacity: 0; transform: translateY(50px);"
-  >
-    <div
-      class="space-y-4"
-    >
-      <img
-        alt="Image with particles"
-        src="https://via.placeholder.com/150"
-      />
-      <p
-        class="text-lg font-semibold text-slate-800"
-      >
-        title
-      </p>
-      <p
-        class="mb-4 text-gray-900 text-md"
-      >
-        description
-      </p>
-    </div>
-  </div>
-</div>
-`;
-
 exports[`renders MainCardContent correctly 1`] = `
 <div>
   <div
@@ -48,6 +20,7 @@ exports[`renders MainCardContent correctly 1`] = `
       </p>
       <p
         class="mb-4 text-gray-900 text-md"
+        data-testid="main-content-paragraph"
       >
         description
       </p>

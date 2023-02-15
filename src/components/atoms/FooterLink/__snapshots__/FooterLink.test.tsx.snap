@@ -7,6 +7,7 @@ exports[`FooterLink > renders a link with href and classes 1`] = `
     <div>
       <a
         class="text-base leading-6 text-gray-100 hover:text-gray-400"
+        data-testid="footer-link"
         href="/"
       >
         Home
@@ -16,6 +17,7 @@ exports[`FooterLink > renders a link with href and classes 1`] = `
   "container": <div>
     <a
       class="text-base leading-6 text-gray-100 hover:text-gray-400"
+      data-testid="footer-link"
       href="/"
     >
       Home

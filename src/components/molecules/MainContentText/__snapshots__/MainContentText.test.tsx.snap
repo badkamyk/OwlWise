@@ -1,37 +1,10 @@
 // Vitest Snapshot v1
 
-exports[`MainContentText 1`] = `
-<div>
-  <div
-    class="font-light text-gray-500 dark:text-gray-400 sm:text-lg"
-  >
-    <h3
-      class="mb-4 tracking-tight font-extrabold text-gray-900 text-4xl"
-    >
-      headingText
-    </h3>
-    <div
-      class="font-normal"
-    >
-      <p
-        class="mb-4 text-gray-900 text-xl"
-      >
-        paragraphText
-      </p>
-      <p
-        class="mb-4 text-gray-900 text-xl"
-      >
-        secondaryText
-      </p>
-    </div>
-  </div>
-</div>
-`;
-
 exports[`renders MainContentText with props correctly 1`] = `
 <div>
   <div
     class="font-light text-gray-500 dark:text-gray-400 sm:text-lg"
+    data-testid="main-content-text"
   >
     <h3
       class="mb-4 tracking-tight font-extrabold text-gray-900 text-4xl"
@@ -43,11 +16,13 @@ exports[`renders MainContentText with props correctly 1`] = `
     >
       <p
         class="mb-4 text-gray-900 text-xl"
+        data-testid="main-content-paragraph"
       >
         paragraphText
       </p>
       <p
         class="mb-4 text-gray-900 text-xl"
+        data-testid="main-content-paragraph"
       >
         secondaryText
       </p>

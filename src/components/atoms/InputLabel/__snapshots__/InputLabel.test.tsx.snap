@@ -1,16 +1,5 @@
 // Vitest Snapshot v1
 
-exports[`InputLabel with props 1`] = `
-<div>
-  <label
-    class="mb-2 block text-sm font-medium text-gray-900 dark:text-gray-300"
-    for="name"
-  >
-    Name
-  </label>
-</div>
-`;
-
 exports[`renders InputLabel with props correctly 1`] = `
 <div>
   <label

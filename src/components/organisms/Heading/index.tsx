@@ -12,6 +12,7 @@ export default function Heading() {
 	);
 	return (
 		<animated.div
+			data-testid="heading"
 			style={props}
 			className="flex h-[100vh] flex-col items-center bg-[url('/main-page-photo.webp')] bg-cover bg-center bg-no-repeat"
 		>

@@ -4,6 +4,7 @@ exports[`MainContentParagraph > MainContentParagraph with only text prop 1`] = `
 <div>
   <p
     class="mb-4 text-gray-900 text-md"
+    data-testid="main-content-paragraph"
   >
     Hello World
   </p>
@@ -14,6 +15,7 @@ exports[`MainContentParagraph > MainContentParagraph with props 1`] = `
 <div>
   <p
     class="mb-8 text-blue-700 text-lg"
+    data-testid="main-content-paragraph"
   >
     Hello World
   </p>

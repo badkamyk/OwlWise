@@ -10,7 +10,10 @@ export default function MainContentImages({
 	secondClass,
 }: MainContentImagesType) {
 	return (
-		<div className="mt-8 grid grid-cols-2 gap-4">
+		<div
+			className="mt-8 grid grid-cols-2 gap-4"
+			data-testid="main-content-images"
+		>
 			<MainCardImg src={firstSrc} alt={firstAlt} className={firstClass} />
 			<MainCardImg src={secondSrc} alt={secondAlt} className={secondClass} />
 		</div>
