@@ -1,0 +1,166 @@
+// Vitest Snapshot v1
+
+exports[`ProcessSection > renders ProcessSection correctly with HeadingMain, MainCard 1`] = `
+<div>
+  <div
+    class="flex h-fit flex-col justify-center gap-8 bg-gradient-to-b from-gray-600 via-rose-100 to-teal-100 px-3 py-9 text-center md:px-0"
+    data-testid="process-section"
+  >
+    <h2
+      class="mb-3 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"
+      data-testid="heading-main"
+    >
+       
+      Our process
+    </h2>
+    <div
+      class="flex h-fit flex-col justify-center gap-8 px-3 py-9 md:flex-row md:px-0"
+    >
+      <div
+        class="flex items-center"
+        data-testid="main-card"
+      >
+        <div
+          class="group relative mx-auto w-96 overflow-hidden rounded-[16px] bg-gray-300 p-[1px] transition-all duration-300 ease-in-out hover:bg-gradient-to-r hover:from-indigo-500 hover:via-purple-500 hover:to-pink-500"
+        >
+          <div
+            class="invisible absolute -top-40 -bottom-40 left-10 right-10 bg-gradient-to-r from-transparent via-white/90 to-transparent group-hover:visible group-hover:animate-spin-slow"
+          />
+          <div
+            class="relative rounded-[15px] bg-white p-6"
+            style="opacity: 0; transform: translateY(50px);"
+          >
+            <div
+              class="space-y-4"
+            >
+              <img
+                alt="Image with particles"
+                src="https://nuxt.com/assets/home/ux-fast-light.svg"
+              />
+              <p
+                class="text-lg font-semibold text-slate-800"
+              >
+                Analyze
+              </p>
+              <p
+                class="mb-4 text-gray-900 text-md"
+                data-testid="main-content-paragraph"
+              >
+                We analyze your technical and business needs to create a custom solution that fits your needs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex items-center"
+        data-testid="main-card"
+      >
+        <div
+          class="group relative mx-auto w-96 overflow-hidden rounded-[16px] bg-gray-300 p-[1px] transition-all duration-300 ease-in-out hover:bg-gradient-to-r hover:from-indigo-500 hover:via-purple-500 hover:to-pink-500"
+        >
+          <div
+            class="invisible absolute -top-40 -bottom-40 left-10 right-10 bg-gradient-to-r from-transparent via-white/90 to-transparent group-hover:visible group-hover:animate-spin-slow"
+          />
+          <div
+            class="relative rounded-[15px] bg-white p-6"
+            style="opacity: 0; transform: translateY(50px);"
+          >
+            <div
+              class="space-y-4"
+            >
+              <img
+                alt="Image with particles"
+                src="https://nuxt.com/assets/home/ux-fast-light.svg"
+              />
+              <p
+                class="text-lg font-semibold text-slate-800"
+              >
+                Prototype
+              </p>
+              <p
+                class="mb-4 text-gray-900 text-md"
+                data-testid="main-content-paragraph"
+              >
+                We create a prototype of your solution to ensure that it meets your needs and expectations.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex items-center"
+        data-testid="main-card"
+      >
+        <div
+          class="group relative mx-auto w-96 overflow-hidden rounded-[16px] bg-gray-300 p-[1px] transition-all duration-300 ease-in-out hover:bg-gradient-to-r hover:from-indigo-500 hover:via-purple-500 hover:to-pink-500"
+        >
+          <div
+            class="invisible absolute -top-40 -bottom-40 left-10 right-10 bg-gradient-to-r from-transparent via-white/90 to-transparent group-hover:visible group-hover:animate-spin-slow"
+          />
+          <div
+            class="relative rounded-[15px] bg-white p-6"
+            style="opacity: 0; transform: translateY(50px);"
+          >
+            <div
+              class="space-y-4"
+            >
+              <img
+                alt="Image with particles"
+                src="https://nuxt.com/assets/home/ux-fast-light.svg"
+              />
+              <p
+                class="text-lg font-semibold text-slate-800"
+              >
+                Develop
+              </p>
+              <p
+                class="mb-4 text-gray-900 text-md"
+                data-testid="main-content-paragraph"
+              >
+                We develop your solution using the latest technologies and best practices to ensure a high-quality product.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex items-center"
+        data-testid="main-card"
+      >
+        <div
+          class="group relative mx-auto w-96 overflow-hidden rounded-[16px] bg-gray-300 p-[1px] transition-all duration-300 ease-in-out hover:bg-gradient-to-r hover:from-indigo-500 hover:via-purple-500 hover:to-pink-500"
+        >
+          <div
+            class="invisible absolute -top-40 -bottom-40 left-10 right-10 bg-gradient-to-r from-transparent via-white/90 to-transparent group-hover:visible group-hover:animate-spin-slow"
+          />
+          <div
+            class="relative rounded-[15px] bg-white p-6"
+            style="opacity: 0; transform: translateY(50px);"
+          >
+            <div
+              class="space-y-4"
+            >
+              <img
+                alt="Image with particles"
+                src="https://nuxt.com/assets/home/ux-fast-light.svg"
+              />
+              <p
+                class="text-lg font-semibold text-slate-800"
+              >
+                Test
+              </p>
+              <p
+                class="mb-4 text-gray-900 text-md"
+                data-testid="main-content-paragraph"
+              >
+                We test your solution to ensure that it meets your needs and expectations.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
