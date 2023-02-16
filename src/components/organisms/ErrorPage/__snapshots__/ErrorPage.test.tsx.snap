@@ -1,0 +1,48 @@
+// Vitest Snapshot v1
+
+exports[`ErrorPage > renders ErrorPage correctly with MainHeading, MainContentParagraph and HeadingButton 1`] = `
+<div>
+  <section
+    class="flex min-h-screen items-center bg-gray-900"
+  >
+    <div
+      class="mx-auto max-w-screen-xl py-8 px-4 lg:py-16 lg:px-6"
+    >
+      <div
+        class="mx-auto max-w-screen-sm text-center"
+      >
+        <h2
+          class="mb-3 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"
+          data-testid="heading-main"
+        >
+           
+          404
+        </h2>
+        <p
+          class="mb-4 text-white text-xl"
+          data-testid="main-content-paragraph"
+        >
+          Something's missing.
+        </p>
+        <p
+          class="mb-4 text-white text-lg"
+          data-testid="main-content-paragraph"
+        >
+          Sorry, we can't find that page. You'll find lots to explore on the home page.
+        </p>
+        <button
+          class="group relative mb-2 mr-2 inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-green-400 to-blue-600 p-0.5 text-sm font-medium text-gray-900 hover:text-white focus:outline-none focus:ring-4 focus:ring-green-200 group-hover:from-green-400 group-hover:to-blue-600 dark:text-white dark:focus:ring-green-800"
+          data-testid="heading-button"
+        >
+          <a
+            class="relative rounded-md bg-white px-5 py-2.5 transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-gray-900"
+            href="/"
+          >
+            Back to Homepage
+          </a>
+        </button>
+      </div>
+    </div>
+  </section>
+</div>
+`;
