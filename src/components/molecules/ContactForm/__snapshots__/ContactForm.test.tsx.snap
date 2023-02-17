@@ -1,9 +1,10 @@
 // Vitest Snapshot v1
 
-exports[`renders ContactForm correctly 1`] = `
+exports[`ContactForm > renders ContactForm correctly 1`] = `
 <div>
   <form
     class="space-y-8"
+    data-testid="contact-form"
   >
     <div>
       <label
@@ -69,5 +70,6 @@ exports[`renders ContactForm correctly 1`] = `
       </a>
     </button>
   </form>
+  )
 </div>
 `;
