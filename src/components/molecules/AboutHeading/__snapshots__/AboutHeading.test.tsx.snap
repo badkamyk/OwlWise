@@ -3,7 +3,8 @@
 exports[`AboutHeading 1`] = `
 <div>
   <div
-    class="mx-auto max-w-screen-xl py-8 px-4 text-center lg:py-16 lg:px-6 "
+    class="mx-auto max-w-screen-xl py-8 px-4 text-center lg:py-16 lg:px-6"
+    data-testid="about-heading"
   >
     <h2
       class="mb-3 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"

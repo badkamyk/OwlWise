@@ -12,7 +12,10 @@ export default function AboutCard({
 	imgSrc,
 }: AboutCardType) {
 	return (
-		<div className="items-center rounded-lg bg-gray-50 shadow dark:border-gray-700 dark:bg-gray-800 sm:flex">
+		<div
+			className="items-center rounded-lg bg-gray-50 shadow dark:border-gray-700 dark:bg-gray-800 sm:flex"
+			data-testid="about-card"
+		>
 			<div>
 				<img
 					className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
