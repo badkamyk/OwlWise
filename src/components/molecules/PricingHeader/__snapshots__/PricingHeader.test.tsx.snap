@@ -4,6 +4,7 @@ exports[`renders PricingHeader correctly 1`] = `
 <div>
   <div
     class="mx-auto mb-8 max-w-screen-md text-center lg:mb-12"
+    data-testid="pricing-header"
   >
     <h3
       class="mb-4 tracking-tight font-extrabold text-white text-4xl"
